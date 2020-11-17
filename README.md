@@ -17,10 +17,11 @@ In page1 you can return to page0 or try a password.
     -   if to password is correct the program calls the page2, active the relay for 5 seconds end return to the page0.
     
     -   else if to calls the page3 end return to the page0 in five seconds.
-## :computer: Deploy
+## :computer: Code
 
 - [Code](https://github.com/)
-
+## :electric_plug: Hardware
+- ![Diagram](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/diagram.png)
 ## :warning: Prerequisites
 - Arduino
 - Nextion display (in this example model NX8048T050)

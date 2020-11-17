@@ -1,4 +1,4 @@
-#  :lock: Electronic lock with tft diplay :unlock:
+#  :lock: Electronic Lock With TFT Nextion Diplay :unlock:
 
 ## :clipboard: Description
 ### What is it?
@@ -32,7 +32,7 @@ A subtle modification in NexConfig.h
 
     add '//' in line  #define DEBUG_SERIAL_ENABLE 
     modify the "nexSerial Serial2" for "nexSerial Serial" 
-![Modify](\pic\modify.png)
+![Modify](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/modify.png)
 
 ## :arrow_forward: How to change the password?
 

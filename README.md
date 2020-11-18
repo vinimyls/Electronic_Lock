@@ -20,7 +20,7 @@ In page1 you can return to page0 or try a password.
 ## :computer: Code
 
 - [Code](https://github.com/vinimyls/Electronic_Lock/blob/main/electronic_lock/electronic_lock.ino)
-- [MHI file for nextion editor](https://github.com/vinimyls/Electronic_Lock/blob/main/Electronic_lock.HMI)
+- [HMI file for nextion editor](https://github.com/vinimyls/Electronic_Lock/blob/main/Electronic_lock.HMI)
 ## :electric_plug: Hardware
 - ![Diagram](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/diagram.png)
 ## :warning: Prerequisites

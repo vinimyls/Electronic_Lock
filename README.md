@@ -20,6 +20,7 @@ In page1 you can return to page0 or try a password.
 ## :computer: Code
 
 - [Code](https://github.com/vinimyls/Electronic_Lock/blob/main/electronic_lock/electronic_lock.ino)
+- [MHI file for nextion editor](https://github.com/vinimyls/Electronic_Lock/blob/main/Electronic_lock.HMI)
 ## :electric_plug: Hardware
 - ![Diagram](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/diagram.png)
 ## :warning: Prerequisites
@@ -27,6 +28,7 @@ In page1 you can return to page0 or try a password.
 - Nextion display (in this example model NX8048T050)
 - Relay model 5Vcc
 - [Nextion official library for arduino](https://github.com/itead/ITEADLIB_Arduino_Nextion)
+- [Nextion Editor for HMI](https://nextion.tech/nextion-editor/)
 
 
 A subtle modification in NexConfig.h

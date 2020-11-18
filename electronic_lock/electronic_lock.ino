@@ -1,5 +1,6 @@
 #include "Nextion.h"
 
+#define relay 12
 /************************ Nextion components ****************/
 //page 0
 NexButton btnNext         = NexButton(0, 1, "btn_next");    //button "go to page1"
@@ -69,6 +70,8 @@ void setup()
   btnN8.attachPop(btnN9PopCallback, &btnN8);
   btnN9.attachPop(btnN9PopCallback, &btnN9);
   btnCancel.attachPop(btnCancelPopCallback, &btnCancel);
+  pinMode(relay,OUTPUT);
+  digitalWrite(relay,HIGH);
 }
 
 void loop() {
@@ -83,8 +86,8 @@ void loop() {
     if (millis() - previousMillis >= maxTime)
     {
       page0.show(); 
-      back = false;                           
-      digit = 0;
+      back = false;
+      digitalWrite(relay,HIGH);
     }
   }
 }
@@ -105,6 +108,7 @@ void verifyPassword(void)
   if (isCorrect)
   {
     page2.show();
+    digitalWrite(relay,LOW);
   }
   else
   {
@@ -112,6 +116,7 @@ void verifyPassword(void)
   }
   back = true;
   previousMillis = millis();
+  digit = 0;
 }
 
 /***********  CALLBACKS   ********/

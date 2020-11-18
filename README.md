@@ -19,7 +19,7 @@ In page1 you can return to page0 or try a password.
     -   else if to calls the page3 end return to the page0 in five seconds.
 ## :computer: Code
 
-- [Code](https://github.com/)
+- [Code](https://github.com/vinimyls/Electronic_Lock/blob/main/electronic_lock/electronic_lock.ino)
 ## :electric_plug: Hardware
 - ![Diagram](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/diagram.png)
 ## :warning: Prerequisites

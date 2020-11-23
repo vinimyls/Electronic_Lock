@@ -6,6 +6,12 @@ This is a application with nextion tft display.
 
 Simulate a electronic lock with a 6 numbers password
 
+Correct password:
+- ![Correct](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/correct.gif)
+
+Incorrect password:
+- ![Incorrect](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/incorrect.gif)
+
 ### How this work?
 
 The program is divided in four pages.

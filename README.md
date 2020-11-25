@@ -2,9 +2,9 @@
 
 ## :clipboard: Description
 ### What is it?
-This is a application with nextion tft display.
+This is an application with nextion tft display.
 
-Simulate a electronic lock with a 6 numbers password
+Simulate an electronic lock with 6 numbers password
 
 Correct password:
 - ![Correct](https://github.com/vinimyls/Electronic_Lock/blob/main/pic/correct.gif)
